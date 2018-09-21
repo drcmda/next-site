@@ -18,6 +18,7 @@ export default () => (
     <style jsx>{`
       .slider-container {
         margin: auto;
+        margin-top: 1.4em;
         line-height: 1.4em;
         white-space: nowrap;
       }
