@@ -68,7 +68,7 @@ export default class extends PureComponent {
           {`
              {
               width: 100%;
-              height: 6rem;
+              height: 3.4em;
               display: flex;
               align-items: center;
               justify-content: center;
