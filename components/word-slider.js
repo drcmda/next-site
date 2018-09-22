@@ -1,6 +1,6 @@
 /* global window */
 import React, { PureComponent } from 'react';
-import { Transition, animated, config } from 'react-spring';
+import { Transition, animated } from 'react-spring';
 
 export default class extends PureComponent {
   constructor(props) {
