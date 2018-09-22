@@ -8,8 +8,7 @@ export default class extends PureComponent {
     this.children = React.Children.toArray(props.children);
     this.state = {
       count: React.Children.count(props.children),
-      currentIndex: 0,
-      stage: 0
+      currentIndex: 0
     };
   }
 
@@ -29,9 +28,7 @@ export default class extends PureComponent {
         return;
       }
       if (!this.pauseAnimation) {
-        const stage = (this.state.stage + 1) % 3;
         this.setState({
-          stage,
           currentIndex: (this.state.currentIndex + 1) % this.state.count
         });
       } else {
